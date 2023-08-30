@@ -10,8 +10,9 @@ const ContactList = ({onDelete}) => {
                 <li key={contact.id}>
                     {contact.name} - {contact.phone}
                     <button onClick={()=>onDelete(contact.id)}>Delete</button>
-                    {console.log("phone",contact.phone)}
+                    
                 </li>
+                
             ))}
         </ul>
     
