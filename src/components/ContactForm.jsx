@@ -24,6 +24,7 @@ const ContactForm = ({ onAdd }) => {
         value={phone}
         onChange={e=>setPhone(e.target.value)} />  
         <button type="submit">Add</button>
+        <button>fail</button>
         </form>
     </div>
   )
